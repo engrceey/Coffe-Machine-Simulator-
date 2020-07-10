@@ -1,5 +1,7 @@
 import java.util.*;
+
 public class CoffeeMachine {
+
   Scanner scanner = new Scanner(System.in);
     int water = 400;
     int milk = 540;
@@ -9,6 +11,7 @@ public class CoffeeMachine {
 
     void showAction() {
       System.out.println("Write action (buy, fill, take, remaining, exit):");
+
      String action = scanner.next();
      System.out.println();
       if(action.equals("exit")){
@@ -179,3 +182,5 @@ public class CoffeeMachine {
         showAction();
      }
 }
+
+//JustJavaIt...
