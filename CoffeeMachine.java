@@ -1,3 +1,4 @@
+import java.util.*;
 public class CoffeeMachine {
   Scanner scanner = new Scanner(System.in);
     int water = 400;
@@ -177,3 +178,4 @@ public class CoffeeMachine {
         System.out.println();
         showAction();
      }
+}
